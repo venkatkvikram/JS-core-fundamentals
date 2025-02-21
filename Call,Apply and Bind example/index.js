@@ -22,3 +22,4 @@ helloFullName.apply(name2, ["Delhi", "Delhi"]);
 let boundFunction = helloFullName.bind(name1, "Godavrikhani, Telangana"); //returns a function
 boundFunction(); //gets callled 
 
+//for reference : https://chatgpt.com/share/67b8ceab-ff08-800e-a877-40623f4a21ac
