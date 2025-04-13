@@ -18,6 +18,8 @@ let printName = function (hometown, state, country) {
   );
 };
 
+printName.apply(name1, ["Gdk", "TS", "IND"])
+
 let printMyName = printName.bind(name1, "Gdk");
 printMyName("Telanagana", "India");
 
